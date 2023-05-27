@@ -1,0 +1,34 @@
+/* .player {
+  display: flex;
+  flex-direction: column;
+}
+
+.player__body {
+  display: flex;
+  flex-grow: 1;
+} */
+
+.player {
+  display: flex;
+  flex-direction: column;
+}
+
+.player__body {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+  .player {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .player__body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
